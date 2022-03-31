@@ -46,7 +46,7 @@ public class FrontControllerServletV4 extends HttpServlet{
         String viewName = controller.process( paramMap , model );
 
         MyView view = viewRosolver( viewName );
-        view.render( model , request , response );
+        view.render( request , response );
 
     }
 
