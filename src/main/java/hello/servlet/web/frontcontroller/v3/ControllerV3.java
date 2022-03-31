@@ -6,5 +6,5 @@ import java.util.Map;
 
 public interface ControllerV3{
 
-    ModelView prceoss( Map<String, String> paramMap );
+    ModelView process( Map<String, String> paramMap );
 }
