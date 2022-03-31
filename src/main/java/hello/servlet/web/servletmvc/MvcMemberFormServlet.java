@@ -1,5 +1,7 @@
 package hello.servlet.web.servletmvc;
 
+import hello.servlet.domain.member.MemberRepository;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
