@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @Controller
-@RequestMapping("/springmvc/v2/members")
+@RequestMapping( "/springmvc/v2/members" )
 public class SpringMemberControllerV2{
 
 
@@ -21,7 +21,7 @@ public class SpringMemberControllerV2{
 
     @RequestMapping( "/new-form" )
     public ModelAndView newForm(){
-        return new ModelAndView("new-form");
+        return new ModelAndView( "new-form" );
     }
 
     @RequestMapping( "/save" )
@@ -39,7 +39,7 @@ public class SpringMemberControllerV2{
 
     }
 
-    @RequestMapping( "/members" )
+    @RequestMapping
     public ModelAndView members(){
 
         List< Member > members = memberRepository.findAll();
